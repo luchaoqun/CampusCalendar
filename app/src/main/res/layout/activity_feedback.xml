@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/feedback_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue"/>
+    <EditText
+        android:id="@+id/feedback_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:inputType="textMultiLine"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@null"
+        android:gravity="left|top"
+        android:background="@color/white"
+        android:hint="@string/feedback_content_hint"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider"/>
+    <EditText
+        android:id="@+id/feedback_connect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:hint="@string/feedback_connect_hint"
+        android:background="@color/white"/>
+
+</LinearLayout>

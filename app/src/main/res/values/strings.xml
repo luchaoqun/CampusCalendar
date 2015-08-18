@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">校招日历</string>
+    <string name="app_slogan">CampusCalendar</string>
+    <string name="app_intro">校招日历是一个分享东大校招的安卓应用。</string>
+    <string name="app_intro_content">在这里，你可以看到今年最新的互联网、软件相关的校招信息。\n\n目前数据由我个人收集并在后端更新，我会尽量使信息准确并新鲜。\n\n如果还有更好的功能建议，可以在意见反馈里面发给我，或者发邮件给我。\n\n最后，祝大家都找到一份满意的工作。\n\n邮箱：lu@luchaoqun.cn\n网站：campuscalendar.bmob.cn/\n开源：github.com/luchaoqun/CampusCalendar</string>
+    <string name="app_copyright">Author 卢超群\nCopyright ©2015 校招日历</string>
+    <string name="register_btn">史上最便捷的一键注册，快戳</string>
+    <string name="register_hint">请输入用户名</string>
+    <string name="to_login">重新登录请戳我</string>
+    <string name="feedback_content_hint">写下您的需求与建议吧，我会努力改进哒</string>
+    <string name="feedback_connect_hint">联系方式（QQ，手机，邮箱等）</string>
+    <string name="hello_world">Hello world!</string>
+</resources>
